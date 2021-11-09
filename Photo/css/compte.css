@@ -1,0 +1,248 @@
+
+/*CSS Page Compte*/
+
+/*.compte_body{
+	background-image: url("../assets/img/bg.jpg");
+     background-repeat: no-repeat;
+    background-size: 100%;
+}*/
+
+.info_design{
+	background-image: url("../assets/img/bg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.titre_info{
+	color:#fed136;
+}
+
+.change_info_title{
+	color:#fed136;
+	padding-bottom: 20px;
+}
+
+.change_photo_title{
+	color:#fed136;
+	width: 450px;
+}
+
+.under_tittle{
+	color:#6c757d;
+	font-style: italic;
+	font-size: 1rem;
+	margin-bottom: 4em;
+	font-weight: 400;
+	 font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/*ligne au millieu */
+.vertical-line{
+	border-left: 6px solid #fed136;
+	height: 65vh;
+	margin-left: 50%;
+	width: 5px;
+}
+/*div gauche du compte (photo de profil) */
+.compte_gauche{
+	width: 300px;
+	float:left;
+margin-left: 350px;
+}
+
+/*div droite du compte (changement) */
+.compte_droite{
+	position: absolute;
+	float:right;
+	right: 200px;
+	top: 280px;
+
+}
+
+.compte_droite input{ 
+	width: 450px;
+}
+
+.input_compte{
+	margin-bottom:10px; 
+}
+
+
+.alert-secondary{
+	width: 45%;
+	padding: -50px;
+	margin-top: 20px;
+	margin-left: 25%;
+	transition: 0.2s;
+}
+
+.alert-secondary:hover{
+transform: scale(1.1);
+transition: 0.3s;
+}
+
+.alert-secondary h2{
+font-size: 120%;
+}
+
+.alert-secondary input{
+	display: inline-flex;
+	justify-content: space-between
+	padding: 5px;
+	width: 60px;
+}
+
+#input_confirm_no{
+margin-left: 20px;
+}
+
+
+.pdp_compte{
+  margin-left: 50px;
+  border-radius: 50%;
+  width: 250px;
+  border: 5px solid #fed136;
+}
+
+.label_compte{
+	 font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color:#fed136;
+}
+
+#appli_pdp{
+	float:right;
+	margin-top: 10px;
+}
+
+#appli_val{
+	margin-top: 30px;
+}
+
+.custom-file-upload1{
+ 	color: #fff;
+	border-radius: 3%;
+    margin-top: 10px;
+	background-color: #fed136;	
+	border-color: #fed136;
+}
+
+.custom-file-upload1:hover{
+  color: #fff;
+  background-color: #fec810;
+  border-color: #fec503;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+
+}
+.custom-file-upload .custom-file-upload1 {
+    border: 1px solid #fed136;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#upload_compte{
+	margin-left:7px ;
+	margin-bottom: 5px;
+	width: 15px;
+	height: 15pxs;
+}
+
+.form-group{
+	margin-top: 10px;
+	width: 350px;
+	margin-left: -25px;
+}
+
+/*Insertion nouvelle photo CSS */
+
+ .image-upload img {
+ 	width: 150px;
+ 	cursor: pointer;
+	border-radius: 30%;
+	border: 3px solid #fed136;
+	transition: 0.3s;
+}
+ .image-upload img:hover {
+transform: scale(1.1);
+transition: 0.3s;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.image-upload label {
+	margin-top: 50px;
+height: 100px;
+width: 1%;
+margin-left: 25%
+	
+}
+
+.textarea_insert{
+	margin-right: 42%;
+	margin-bottom: 50px;
+	height: 156px;
+	width: 400px;
+	float: right;
+	margin-top: -108px;
+border: 3px solid #fed136;
+transition: 0.3s;
+}
+
+
+.textarea_insert:hover{
+transform: scale(1.1);
+transition: 0.3s;	
+}
+
+
+
+.input_insert{
+transition: 0.3s;	
+border: 3px solid #fed136;
+width: 600px;
+height: 60px;
+margin-left: -2%;
+}
+
+.input_insert:hover{
+transform: scale(1.1);
+transition: 0.3s;	
+}
+
+.input_type_insert {
+	margin-left: -3%;
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 3px solid #fed136;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+ transition: 0.3s;
+}
+
+.input_type_insert:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+#valid_ajout{
+	width: 200px;
+	height: 40px;
+	margin-left: 40px;
+	margin-bottom: 5px;
+}
+
+#gallery_compte{
+	width: 50px;
+	height: 50px;
+}
